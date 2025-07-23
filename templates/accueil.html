@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+  <div class="welcome-container">
+    <h1>Bienvenue sur OnionGuard</h1>
+    <p>Surveillez la qualité de vos oignons en temps réel grâce à notre système IoT innovant.</p>
+    
+    {% if session.get('user') %}
+      <a href="{{ url_for('suivi') }}" class="btn-action">📈 Voir le suivi</a>
+      <a href="{{ url_for('stock') }}" class="btn-action">📦 Voir le stock</a>
+      <a href="{{ url_for('alerte') }}" class="btn-action">⚠️ Voir les alertes</a>
+      <a href="{{ url_for('logout') }}" class="btn-action btn-logout">Se déconnecter</a>
+    {% else %}
+      <a href="{{ url_for('login') }}" class="btn-action">Se connecter</a>
+    {% endif %}
+  </div>
+{% endblock %}

@@ -1,0 +1,186 @@
+{% extends "base.html" %}
+{% block title %}Suivi en temps réel{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+  <h2 class="mb-4">📡 Suivi en temps réel des capteurs</h2>
+
+  <div class="row mb-3">
+    <div class="col-md-4 mb-2">
+      <div class="card stat-card mini-card shadow-sm" style="--color: #e74c3c;">
+        <div class="icon"><i class="fas fa-temperature-high"></i></div>
+        <div class="stat">
+          <small>Température</small>
+          <div id="temp" class="stat-value">-- °C</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-2">
+      <div class="card stat-card mini-card shadow-sm" style="--color: #3498db;">
+        <div class="icon"><i class="fas fa-tint"></i></div>
+        <div class="stat">
+          <small>Humidité</small>
+          <div id="hum" class="stat-value">-- %</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-2">
+      <div class="card stat-card mini-card shadow-sm" style="--color: #2ecc71;">
+        <div class="icon"><i class="fas fa-smog"></i></div>
+        <div class="stat">
+          <small>Qualité de l’air</small>
+          <div id="gaz" class="stat-value">--</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-4">
+    <label for="choix-moyenne" class="form-label text-white">📊 Afficher les moyennes :</label>
+    <select id="choix-moyenne" class="form-select w-auto">
+      <option value="">-- Sélectionner --</option>
+      <option value="jour">📆 Moyenne du jour</option>
+      <option value="semaine">📅 Moyenne de la semaine</option>
+      <option value="mois">🗓️ Moyenne du mois</option>
+      <option value="toutes">📚 Toutes les moyennes</option>
+    </select>
+  </div>
+
+  <div id="zone-moyennes" class="text-white mb-4"></div>
+
+  <div class="mt-5">
+    <canvas id="graphTemp" height="150"></canvas>
+    <canvas id="graphHum" height="150" class="mt-4"></canvas>
+    <canvas id="graphGaz" height="150" class="mt-4"></canvas>
+  </div>
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+  let jours = {};
+
+  async function chargerDonnees() {
+    try {
+      const res = await fetch("/api/suivi");
+      const data = await res.json();
+      const last = data.at(-1);
+
+      if (!last || !last.historique) return;
+
+      jours = last.jours || {};
+
+      // Valeurs actuelles
+      document.getElementById("temp").textContent = `${last.temperature ?? '--'} °C`;
+      document.getElementById("hum").textContent = `${last.humidite ?? '--'} %`;
+      document.getElementById("gaz").textContent = `${last.gaz ?? '--'}`;
+
+      // Graphiques
+      const labels = last.historique.temperature.map((_, i) => `T${i + 1}`);
+      const options = {
+        responsive: true,
+        plugins: { legend: { labels: { color: "white", font: { size: 14, weight: "bold" } } } },
+        scales: {
+          x: { ticks: { color: "white" }, grid: { color: "rgba(255,255,255,0.1)" } },
+          y: { beginAtZero: true, ticks: { color: "white" }, grid: { color: "rgba(255,255,255,0.1)" } }
+        }
+      };
+
+      new Chart(document.getElementById("graphTemp"), {
+        type: "line",
+        data: {
+          labels,
+          datasets: [{
+            label: "Température (°C)",
+            data: last.historique.temperature,
+            borderColor: "#e74c3c",
+            backgroundColor: "rgba(231,76,60,0.2)",
+            fill: true,
+            tension: 0.3
+          }]
+        },
+        options
+      });
+
+      new Chart(document.getElementById("graphHum"), {
+        type: "line",
+        data: {
+          labels,
+          datasets: [{
+            label: "Humidité (%)",
+            data: last.historique.humidite,
+            borderColor: "#3498db",
+            backgroundColor: "rgba(52,152,219,0.2)",
+            fill: true,
+            tension: 0.3
+          }]
+        },
+        options
+      });
+
+      new Chart(document.getElementById("graphGaz"), {
+        type: "line",
+        data: {
+          labels,
+          datasets: [{
+            label: "Gaz (ppm)",
+            data: last.historique.gaz,
+            borderColor: "#2ecc71",
+            backgroundColor: "rgba(46,204,113,0.2)",
+            fill: true,
+            tension: 0.3
+          }]
+        },
+        options
+      });
+
+    } catch (err) {
+      console.error("❌ Erreur lors du chargement :", err);
+    }
+  }
+
+  function afficherMoyennes(choix) {
+    if (!jours || Object.keys(jours).length === 0) return;
+    const joursOrdres = Object.keys(jours).sort();
+    let joursChoisis = [];
+
+    if (choix === "jour") joursChoisis = [joursOrdres.at(-1)];
+    else if (choix === "semaine") joursChoisis = joursOrdres.slice(-7);
+    else if (choix === "mois") joursChoisis = joursOrdres.slice(-30);
+    else if (choix === "toutes") joursChoisis = joursOrdres;
+
+    let total = { temperature: 0, humidite: 0, gaz: 0 }, count = joursChoisis.length;
+
+    joursChoisis.forEach(j => {
+      const d = jours[j];
+      total.temperature += d.temperature;
+      total.humidite += d.humidite;
+      total.gaz += d.gaz;
+    });
+
+    const moyenne = {
+      temperature: (total.temperature / count).toFixed(1),
+      humidite: (total.humidite / count).toFixed(1),
+      gaz: (total.gaz / count).toFixed(1)
+    };
+
+    document.getElementById("zone-moyennes").innerHTML = `
+      <div class="bg-dark p-3 rounded shadow-sm">
+        <h5>📊 Moyennes (${choix})</h5>
+        <ul class="list-unstyled">
+          <li><strong>🌡️ Température :</strong> ${moyenne.temperature} °C</li>
+          <li><strong>💧 Humidité :</strong> ${moyenne.humidite} %</li>
+          <li><strong>🟤 Gaz :</strong> ${moyenne.gaz} ppm</li>
+        </ul>
+      </div>`;
+  }
+
+  document.getElementById("choix-moyenne").addEventListener("change", e => {
+    afficherMoyennes(e.target.value);
+  });
+
+  chargerDonnees();
+  setInterval(chargerDonnees, 5000);
+</script>
+{% endblock %}

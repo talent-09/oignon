@@ -1,0 +1,33 @@
+[
+    {
+        "date": "2025-07-08 13:43:27",
+        "action": "Ajout",
+        "quantite": 250
+    },
+    {
+        "date": "2025-07-08 13:43:40",
+        "action": "Ajout",
+        "quantite": 1000
+    },
+    {
+        "date": "2025-07-08 21:05:53",
+        "action": "Ajout",
+        "quantite": 1000.0,
+        "unite": "kg"
+    },
+    {
+        "date": "2025-07-11 17:12:33",
+        "action": "Ajout",
+        "quantite": 400
+    },
+    {
+        "date": "2025-07-11 17:12:41",
+        "action": "Ajout",
+        "quantite": 400
+    },
+    {
+        "date": "2025-07-20 23:14:04",
+        "action": "Retrait pourriture",
+        "quantite": 1970
+    }
+]

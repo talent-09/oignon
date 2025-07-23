@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Alertes{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+  <h2 class="mb-4">🚨 Tableau des alertes</h2>
+
+  {% if alertes %}
+    <div class="table-container">
+      <table class="table-custom">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Valeur concernée</th>
+            <th>Niveau</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for alerte in alertes %}
+          <tr class="{{ alerte.niveau|lower }}">
+            <td>{{ alerte.date or 'Inconnue' }}</td>
+            <td>{{ alerte.type or 'Non défini' }}</td>
+            <td>
+              {% if alerte.type == 'gaz' %}
+                {{ alerte.gaz }} ppm
+              {% elif alerte.type == 'temperature' %}
+                {{ alerte.temperature }} °C
+              {% elif alerte.type == 'humidite' %}
+                {{ alerte.humidite }} %
+              {% else %}
+                -
+              {% endif %}
+            </td>
+            <td>{{ alerte.niveau }}</td>
+            <td>{{ alerte.message }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% else %}
+    <div class="alert alert-secondary">Aucune alerte enregistrée.</div>
+  {% endif %}
+</div>
+{% endblock %}

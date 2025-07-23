@@ -1,0 +1,1136 @@
+[
+  {
+    "date": "2025-07-06 14:35:20",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 320,
+    "message": "Concentration de gaz anormalement élevée"
+  },
+  {
+    "date": "2025-07-06 14:38:10",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 34.5,
+    "message": "Température élevée"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 895,
+    "message": "🚨 Gaz élevé détecté : 895 ppm le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-08 01:26:16",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 35.9,
+    "message": "🌡 Température élevée : 35.9 °C le 2025-07-08 01:26:16"
+  },
+  {
+    "date": "2025-07-11 00:38:49",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1525,
+    "message": "🚨 Gaz élevé détecté : 1525 ppm le 2025-07-11 00:38:49"
+  },
+  {
+    "date": "2025-07-11 00:39:19",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1488,
+    "message": "🚨 Gaz élevé détecté : 1488 ppm le 2025-07-11 00:39:19"
+  },
+  {
+    "date": "2025-07-11 00:39:34",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1479,
+    "message": "🚨 Gaz élevé détecté : 1479 ppm le 2025-07-11 00:39:34"
+  },
+  {
+    "date": "2025-07-11 00:39:39",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1487,
+    "message": "🚨 Gaz élevé détecté : 1487 ppm le 2025-07-11 00:39:39"
+  },
+  {
+    "date": "2025-07-11 00:39:44",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1488,
+    "message": "🚨 Gaz élevé détecté : 1488 ppm le 2025-07-11 00:39:44"
+  },
+  {
+    "date": "2025-07-11 00:39:49",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1455,
+    "message": "🚨 Gaz élevé détecté : 1455 ppm le 2025-07-11 00:39:49"
+  },
+  {
+    "date": "2025-07-11 00:40:04",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1456,
+    "message": "🚨 Gaz élevé détecté : 1456 ppm le 2025-07-11 00:40:04"
+  },
+  {
+    "date": "2025-07-11 00:40:09",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1449,
+    "message": "🚨 Gaz élevé détecté : 1449 ppm le 2025-07-11 00:40:09"
+  },
+  {
+    "date": "2025-07-11 00:40:14",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1437,
+    "message": "🚨 Gaz élevé détecté : 1437 ppm le 2025-07-11 00:40:14"
+  },
+  {
+    "date": "2025-07-11 00:40:24",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1424,
+    "message": "🚨 Gaz élevé détecté : 1424 ppm le 2025-07-11 00:40:24"
+  },
+  {
+    "date": "2025-07-11 00:40:29",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1439,
+    "message": "🚨 Gaz élevé détecté : 1439 ppm le 2025-07-11 00:40:29"
+  },
+  {
+    "date": "2025-07-11 00:44:09",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1264,
+    "message": "🚨 Gaz élevé détecté : 1264 ppm le 2025-07-11 00:44:09"
+  },
+  {
+    "date": "2025-07-11 15:00:47",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1946,
+    "message": "🚨 Gaz élevé détecté : 1946 ppm le 2025-07-11 15:00:47"
+  },
+  {
+    "date": "2025-07-11 15:00:47",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.3,
+    "message": "🌡 Température élevée : 33.3 °C le 2025-07-11 15:00:47"
+  },
+  {
+    "date": "2025-07-11 15:00:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1951,
+    "message": "🚨 Gaz élevé détecté : 1951 ppm le 2025-07-11 15:00:52"
+  },
+  {
+    "date": "2025-07-11 15:00:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.2,
+    "message": "🌡 Température élevée : 33.2 °C le 2025-07-11 15:00:52"
+  },
+  {
+    "date": "2025-07-11 15:02:02",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1872,
+    "message": "🚨 Gaz élevé détecté : 1872 ppm le 2025-07-11 15:02:02"
+  },
+  {
+    "date": "2025-07-11 15:02:02",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.1,
+    "message": "🌡 Température élevée : 33.1 °C le 2025-07-11 15:02:02"
+  },
+  {
+    "date": "2025-07-11 15:02:02",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1872,
+    "message": "🚨 Gaz élevé détecté : 1872 ppm le 2025-07-11 15:02:02"
+  },
+  {
+    "date": "2025-07-11 15:02:02",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.1,
+    "message": "🌡 Température élevée : 33.1 °C le 2025-07-11 15:02:02"
+  },
+  {
+    "date": "2025-07-11 15:02:02",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1872,
+    "message": "🚨 Gaz élevé détecté : 1872 ppm le 2025-07-11 15:02:02"
+  },
+  {
+    "date": "2025-07-11 15:02:02",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.1,
+    "message": "🌡 Température élevée : 33.1 °C le 2025-07-11 15:02:02"
+  },
+  {
+    "date": "2025-07-11 15:02:02",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1872,
+    "message": "🚨 Gaz élevé détecté : 1872 ppm le 2025-07-11 15:02:02"
+  },
+  {
+    "date": "2025-07-11 15:02:02",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.1,
+    "message": "🌡 Température élevée : 33.1 °C le 2025-07-11 15:02:02"
+  },
+  {
+    "date": "2025-07-11 17:08:47",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1107,
+    "message": "🚨 Gaz élevé détecté : 1107 ppm le 2025-07-11 17:08:47"
+  },
+  {
+    "date": "2025-07-11 17:08:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1104,
+    "message": "🚨 Gaz élevé détecté : 1104 ppm le 2025-07-11 17:08:52"
+  },
+  {
+    "date": "2025-07-11 17:10:02",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1105,
+    "message": "🚨 Gaz élevé détecté : 1105 ppm le 2025-07-11 17:10:02"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1085,
+    "message": "🚨 Gaz élevé détecté : 1085 ppm le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:10:52",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.5,
+    "message": "🌡 Température élevée : 33.5 °C le 2025-07-11 17:10:52"
+  },
+  {
+    "date": "2025-07-11 17:33:44",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1158,
+    "message": "🚨 Gaz élevé détecté : 1158 ppm le 2025-07-11 17:33:44"
+  },
+  {
+    "date": "2025-07-11 17:34:19",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1219,
+    "message": "🚨 Gaz élevé détecté : 1219 ppm le 2025-07-11 17:34:19"
+  },
+  {
+    "date": "2025-07-11 17:35:19",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1247,
+    "message": "🚨 Gaz élevé détecté : 1247 ppm le 2025-07-11 17:35:19"
+  },
+  {
+    "date": "2025-07-11 17:36:54",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1319,
+    "message": "🚨 Gaz élevé détecté : 1319 ppm le 2025-07-11 17:36:54"
+  },
+  {
+    "date": "2025-07-11 17:37:00",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1322,
+    "message": "🚨 Gaz élevé détecté : 1322 ppm le 2025-07-11 17:37:00"
+  },
+  {
+    "date": "2025-07-12 22:46:56",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 4095,
+    "message": "🚨 Gaz élevé détecté : 4095 ppm le 2025-07-12 22:46:56"
+  },
+  {
+    "date": "2025-07-12 22:46:56",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 4095,
+    "message": "🚨 Gaz élevé détecté : 4095 ppm le 2025-07-12 22:46:56"
+  },
+  {
+    "date": "2025-07-12 22:46:56",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 4095,
+    "message": "🚨 Gaz élevé détecté : 4095 ppm le 2025-07-12 22:46:56"
+  },
+  {
+    "date": "2025-07-12 22:46:56",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 4095,
+    "message": "🚨 Gaz élevé détecté : 4095 ppm le 2025-07-12 22:46:56"
+  },
+  {
+    "date": "2025-07-12 22:48:05",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1535,
+    "message": "🚨 Gaz élevé détecté : 1535 ppm le 2025-07-12 22:48:05"
+  },
+  {
+    "date": "2025-07-12 22:51:34",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1322,
+    "message": "🚨 Gaz élevé détecté : 1322 ppm le 2025-07-12 22:51:34"
+  },
+  {
+    "date": "2025-07-12 22:51:44",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1338,
+    "message": "🚨 Gaz élevé détecté : 1338 ppm le 2025-07-12 22:51:44"
+  },
+  {
+    "date": "2025-07-12 22:54:19",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1295,
+    "message": "🚨 Gaz élevé détecté : 1295 ppm le 2025-07-12 22:54:19"
+  },
+  {
+    "date": "2025-07-12 22:55:09",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1278,
+    "message": "🚨 Gaz élevé détecté : 1278 ppm le 2025-07-12 22:55:09"
+  },
+  {
+    "date": "2025-07-12 23:18:27",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1155,
+    "message": "🚨 Gaz élevé détecté : 1155 ppm le 2025-07-12 23:18:27"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-12 23:23:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1168,
+    "message": "🚨 Gaz élevé détecté : 1168 ppm le 2025-07-12 23:23:58"
+  },
+  {
+    "date": "2025-07-14 15:02:07",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 687,
+    "message": "🚨 Gaz élevé détecté : 687 ppm le 2025-07-14 15:02:07"
+  },
+  {
+    "date": "2025-07-14 15:02:07",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 33.9,
+    "message": "🌡 Température élevée : 33.9 °C le 2025-07-14 15:02:07"
+  },
+  {
+    "date": "2025-07-14 15:35:40",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 742,
+    "message": "🚨 Gaz élevé détecté : 742 ppm le 2025-07-14 15:35:40"
+  },
+  {
+    "date": "2025-07-14 18:12:40",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 943,
+    "message": "🚨 Gaz élevé détecté : 943 ppm le 2025-07-14 18:12:40"
+  },
+  {
+    "date": "2025-07-14 18:14:16",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 941,
+    "message": "🚨 Gaz élevé détecté : 941 ppm le 2025-07-14 18:14:16"
+  },
+  {
+    "date": "2025-07-14 18:41:23",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 561,
+    "message": "🚨 Gaz élevé détecté : 561 ppm le 2025-07-14 18:41:23"
+  },
+  {
+    "date": "2025-07-14 18:42:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 559,
+    "message": "🚨 Gaz élevé détecté : 559 ppm le 2025-07-14 18:42:58"
+  },
+  {
+    "date": "2025-07-14 19:13:46",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 613,
+    "message": "🚨 Gaz élevé détecté : 613 ppm le 2025-07-14 19:13:46"
+  },
+  {
+    "date": "2025-07-14 19:18:38",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 642,
+    "message": "🚨 Gaz élevé détecté : 642 ppm le 2025-07-14 19:18:38"
+  },
+  {
+    "date": "2025-07-14 19:18:38",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 642,
+    "message": "🚨 Gaz élevé détecté : 642 ppm le 2025-07-14 19:18:38"
+  },
+  {
+    "date": "2025-07-14 19:19:18",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 626,
+    "message": "🚨 Gaz élevé détecté : 626 ppm le 2025-07-14 19:19:18"
+  },
+  {
+    "date": "2025-07-14 20:00:56",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 548,
+    "message": "🚨 Gaz élevé détecté : 548 ppm le 2025-07-14 20:00:56"
+  },
+  {
+    "date": "2025-07-15 17:28:06",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1054,
+    "message": "🚨 Gaz élevé détecté : 1054 ppm le 2025-07-15 17:28:06"
+  },
+  {
+    "date": "2025-07-15 17:28:36",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1056,
+    "message": "🚨 Gaz élevé détecté : 1056 ppm le 2025-07-15 17:28:36"
+  },
+  {
+    "date": "2025-07-15 17:30:11",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1094,
+    "message": "🚨 Gaz élevé détecté : 1094 ppm le 2025-07-15 17:30:11"
+  },
+  {
+    "date": "2025-07-16 10:33:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1795,
+    "message": "🚨 Gaz élevé détecté : 1795 ppm le 2025-07-16 10:33:58"
+  },
+  {
+    "date": "2025-07-16 10:33:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1795,
+    "message": "🚨 Gaz élevé détecté : 1795 ppm le 2025-07-16 10:33:58"
+  },
+  {
+    "date": "2025-07-16 12:34:09",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1119,
+    "message": "🚨 Gaz élevé détecté : 1119 ppm le 2025-07-16 12:34:09"
+  },
+  {
+    "date": "2025-07-16 14:02:58",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1069,
+    "message": "🚨 Gaz élevé détecté : 1069 ppm le 2025-07-16 14:02:58"
+  },
+  {
+    "date": "2025-07-16 14:10:49",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1132,
+    "message": "🚨 Gaz élevé détecté : 1132 ppm le 2025-07-16 14:10:49"
+  },
+  {
+    "date": "2025-07-16 14:32:20",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1255,
+    "message": "🚨 Gaz élevé détecté : 1255 ppm le 2025-07-16 14:32:20"
+  },
+  {
+    "date": "2025-07-16 14:32:40",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1248,
+    "message": "🚨 Gaz élevé détecté : 1248 ppm le 2025-07-16 14:32:40"
+  },
+  {
+    "date": "2025-07-20 23:08:33",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1587,
+    "message": "🚨 Gaz élevé détecté : 1587 ppm le 2025-07-20 23:08:33"
+  },
+  {
+    "date": "2025-07-20 23:08:33",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 31.2,
+    "message": "🌡 Température élevée : 31.2 °C le 2025-07-20 23:08:33"
+  },
+  {
+    "date": "2025-07-20 23:11:33",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1098,
+    "message": "🚨 Gaz élevé détecté : 1098 ppm le 2025-07-20 23:11:33"
+  },
+  {
+    "date": "2025-07-20 23:11:33",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 31.8,
+    "message": "🌡 Température élevée : 31.8 °C le 2025-07-20 23:11:33"
+  },
+  {
+    "date": "2025-07-20 23:14:13",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 32.1,
+    "message": "🌡 Température élevée : 32.1 °C le 2025-07-20 23:14:13"
+  },
+  {
+    "date": "2025-07-22 13:11:14",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1954,
+    "message": "🚨 Gaz élevé détecté : 1954 ppm le 2025-07-22 13:11:14"
+  },
+  {
+    "date": "2025-07-22 13:11:14",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 31.2,
+    "message": "🌡 Température élevée : 31.2 °C le 2025-07-22 13:11:14"
+  },
+  {
+    "date": "2025-07-22 13:12:14",
+    "type": "gaz",
+    "niveau": "critique",
+    "gaz": 1707,
+    "message": "🚨 Gaz élevé détecté : 1707 ppm le 2025-07-22 13:12:14"
+  },
+  {
+    "date": "2025-07-22 13:12:14",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 31.2,
+    "message": "🌡 Température élevée : 31.2 °C le 2025-07-22 13:12:14"
+  },
+  {
+    "date": "2025-07-22 14:36:30",
+    "type": "temperature",
+    "niveau": "moyenne",
+    "temperature": 31.6,
+    "message": "🌡 Température élevée : 31.6 °C le 2025-07-22 14:36:30"
+  }
+]

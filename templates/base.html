@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>{% block title %}OnionGuard{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='Css/style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/png">
+</head>
+<body>
+
+  <header>
+    <div class="container navbar">
+      <a href="{{ url_for('accueil') }}" class="logo">🧅 OnionGuard</a>
+      <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="{{ url_for('accueil') }}">Accueil</a></li>
+          {% if session.get("user") %}
+            <li><a href="{{ url_for('suivi') }}">Suivi</a></li>
+            <li><a href="{{ url_for('alerte') }}">Alertes</a></li>
+            {% if session.get("role") == "admin" %}
+              <li><a href="{{ url_for('stock') }}">Gestion de stock</a></li>
+            {% endif %}
+            <li><a href="{{ url_for('logout') }}" class="btn-logout">Déconnexion</a></li>
+          {% else %}
+            <li><a href="{{ url_for('login') }}" class="btn-login">Connexion</a></li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-messages">
+          {% for category, message in messages %}
+            <div class="flash-message {{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <p>&copy; {{ now().year }} OnionGuard - Tous droits réservés.</p>
+  </footer>
+
+  <button id="btn-retour" title="Retour">
+    <i class="fas fa-arrow-left"></i>
+  </button>
+
+  <script>
+    // Bouton retour
+    document.getElementById('btn-retour').addEventListener('click', () => window.history.back());
+    const btn = document.getElementById('btn-retour');
+    btn.addEventListener('mouseenter', () => btn.style.backgroundColor = '#e67e22');
+    btn.addEventListener('mouseleave', () => btn.style.backgroundColor = '#f39c12');
+
+    // Toggle menu mobile
+    function toggleMenu() {
+      const nav = document.getElementById("nav-links");
+      nav.classList.toggle("show");
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

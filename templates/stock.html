@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block title %}Gestion de stock{% endblock %}
+{% block content %}
+
+<!-- Dashboard -->
+<section class="stock-grid" style="margin-top: 30px;">
+  <div class="stock-card">
+    <h3>Quantité totale</h3>
+    <p>{{ quantite }}</p>
+  </div>
+  <div class="stock-card danger">
+    <h3>Pourriture détectée</h3>
+    <p>{{ pourriture }}</p>
+  </div>
+</section>
+
+<!-- Formulaire stock -->
+<section class="stock-form" style="margin-bottom: 40px;">
+  <h2>Gérer le stock</h2>
+  <form method="POST" action="/stock">
+    <div class="form-group">
+      <label for="quantite">Quantité (kg)</label>
+      <input type="number" id="quantite" name="quantite" min="1" required />
+    </div>
+    <div class="form-group">
+      <label for="type">Type d'action</label>
+      <select id="type" name="action" required>
+        <option value="ajouter">Entrée (ajouter au stock)</option>
+        <option value="retirer">Sortie (vente)</option>
+        <option value="retirer_pourriture">Retirer pourriture (perte)</option>
+      </select>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn-action">Enregistrer</button>
+    </div>
+  </form>
+</section>
+
+<!-- Historique -->
+<section class="table-container">
+  <div style="background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(12px); border-radius: 16px; padding: 30px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); border: 1px solid rgba(255, 255, 255, 0.2);">
+    <h2 style="text-align:center; margin-bottom: 20px; color: #ecf0f1;">Historique des stocks</h2>
+
+    <form method="POST" action="/stock/effacer_historique" style="text-align:center; margin-bottom: 20px;">
+      <button class="btn-danger" style="padding: 10px 20px; background-color: #e74c3c; color: white; border: none; border-radius: 8px; cursor: pointer;" onclick="return confirm('Effacer l’historique ?')">
+        <i class="fas fa-trash-alt"></i> Effacer l’historique
+      </button>
+    </form>
+
+    <div style="overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; font-family: sans-serif; background: transparent; color: #f5f5f5;">
+        <thead style="background-color: rgba(255, 255, 255, 0.15);">
+          <tr>
+            <th style="padding: 12px;">Date</th>
+            <th style="padding: 12px;">Type</th>
+            <th style="padding: 12px;">Quantité (kg)</th>
+            <th style="padding: 12px;">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for ligne in historique|reverse %}
+          <tr style="background-color: rgba(255, 255, 255, 0.05);">
+            <td style="padding: 10px;">{{ ligne.date }}</td>
+            <td style="padding: 10px;">{{ ligne.action }}</td>
+            <td style="padding: 10px;">{{ ligne.quantite }}</td>
+            <td style="padding: 10px;">
+              <button title="Modifier" style="background: transparent; border: none; color: #3498db; cursor: not-allowed;">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button title="Supprimer" style="background: transparent; border: none; color: #e74c3c; cursor: not-allowed;">
+                <i class="fas fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+          {% else %}
+          <tr>
+            <td colspan="4" style="text-align: center; padding: 20px; color: #ddd;">Aucune donnée disponible.</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Script d'interaction -->
+<script>
+  const actionSelect = document.getElementById('type');
+  const quantiteInput = document.getElementById('quantite');
+  const submitBtn = document.querySelector('.btn-action');
+
+  function updateFormAppearance() {
+    const action = actionSelect.value;
+    submitBtn.style.backgroundColor = '#3498db';
+    submitBtn.textContent = 'Enregistrer';
+    quantiteInput.style.borderColor = '#ccc';
+
+    if(action === 'ajouter') {
+      submitBtn.textContent = 'Ajouter au stock';
+      submitBtn.style.backgroundColor = '#2ecc71';
+      quantiteInput.style.borderColor = '#2ecc71';
+    } else if(action === 'retirer') {
+      submitBtn.textContent = 'Vendre (sortie)';
+      submitBtn.style.backgroundColor = '#e67e22';
+      quantiteInput.style.borderColor = '#e67e22';
+    } else if(action === 'retirer_pourriture') {
+      submitBtn.textContent = 'Retirer pourriture';
+      submitBtn.style.backgroundColor = '#e74c3c';
+      quantiteInput.style.borderColor = '#e74c3c';
+    }
+  }
+
+  actionSelect.addEventListener('change', updateFormAppearance);
+  updateFormAppearance();
+</script>
+
+{% endblock %}
